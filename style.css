@@ -183,17 +183,23 @@ section.max-1290 {
         height: 20px;
     }
 
-    .date, .nav-white {
-        display: none !important;
+    #date {
+        display: none;
+    }
+
+    #nav-white {
+        opacity: 0;
+        height: 0;
     }
 
     .btns-nav {
         margin-top: 15px;
     }
 
-    main #main-section {
+    #main-section {
         order: -1;
-        margin-top: -30px !important;
+        transform: translateY(-70px);
+        margin-bottom: -100px;
     }
 
     .mags {
