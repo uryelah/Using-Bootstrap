@@ -137,6 +137,10 @@ section.max-1290 {
     clip-path: polygon(0% 0%, 90% 0%, 92% 30%, 100% 30%, 100% 100%, 0% 100%)
 }
 
+.nav-colapsed {
+    display: none;
+}
+
 /*==========================================================
     FOOTER
 ==========================================================*/
@@ -174,6 +178,10 @@ section.max-1290 {
         opacity: 0;
         height: 0;
         margin-top: -60px;
+    }
+
+    .nav-colapsed {
+        display: inline-block;
     }
     
     .nav-logo {
