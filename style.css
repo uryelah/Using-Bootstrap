@@ -16,10 +16,6 @@ body {
     font-family: Arial,Helvetica,sans-serif;
 }
 
-.hid {
-    display: none;
-}
-
 body.container {
     max-width: 1290px;
     overflow-x: hidden;
@@ -51,11 +47,11 @@ ul, ol {
 }
 
 section.max-1290 {
-    max-width: 1600px !important;
+    max-width: 1600px;
 }
 
-.bg-secondary {
-    background-color: #f4f5f6 !important;
+.bg-secundary-lighter {
+    background-color: #f4f5f6;
 }
 
 [src="./assets/slides.png"] {
@@ -167,7 +163,7 @@ section.max-1290 {
     }
     
     main #main-section {
-        height: 2020px !important;
+        height: 2020px;
         overflow-y: scroll;
         clip-path: polygon(0% 0%, 90% 0%, 90% 100%, 0% 100%);
     }
@@ -210,12 +206,12 @@ section.max-1290 {
         margin-left: calc(50% - 85px);
     }
 
-    #footer {
-        padding-left: 15px !important
+    #body #footer {
+        transform: scaleX(1.1);
     }
 
-    #editions {
-        padding-left: 0 !important;
+    #footer #editions {
+        padding-left: 0;
         padding-bottom: 30px;
     }
 
