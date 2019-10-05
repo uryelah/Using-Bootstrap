@@ -169,15 +169,13 @@ section.max-1290 {
     }
 }
 
-@media only screen and (max-width: 760px) {
-    section {
-        padding-right: 15px;
+@media only screen and (max-width: 950px) {
+    #nav-white {
+        opacity: 0;
+        height: 0;
+        margin-top: -60px;
     }
-
-    article {
-        padding-bottom: 15px;
-    }
-
+    
     .nav-logo {
         width: 131px;
         height: 20px;
@@ -186,14 +184,27 @@ section.max-1290 {
     #date {
         display: none;
     }
-
-    #nav-white {
-        opacity: 0;
-        height: 0;
-    }
-
+    
     .btns-nav {
         margin-top: 15px;
+    }
+
+    #main {
+        height: 2350px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #main {
+        height: unset;
+    }
+
+    section {
+        padding-right: 15px;
+    }
+
+    article {
+        padding-bottom: 15px;
     }
 
     #main-section {
